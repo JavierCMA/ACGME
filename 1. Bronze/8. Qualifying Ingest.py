@@ -43,4 +43,4 @@ df_final.write.parquet(path=f"{silver_path}/qualifying",mode="overwrite")
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit('Success_Qualifying')

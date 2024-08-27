@@ -65,3 +65,7 @@ df.printSchema()
 # COMMAND ----------
 
 df.describe().show()
+
+# COMMAND ----------
+
+dbutils.notebook.exit('Success_Circuits')

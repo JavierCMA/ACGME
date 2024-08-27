@@ -50,4 +50,4 @@ df_final.write.parquet(path="/mnt/acgmedatalake/2silver/results",mode='overwrite
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit('Success_Results')

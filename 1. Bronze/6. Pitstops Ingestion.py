@@ -31,4 +31,4 @@ df_final.write.parquet(path="/mnt/acgmedatalake/2silver/pit_stops",mode="overwri
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit('Success_Pitstops')

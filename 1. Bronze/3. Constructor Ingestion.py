@@ -32,4 +32,4 @@ df.write.parquet(path="/mnt/acgmedatalake/2silver/constructors", mode='overwrite
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit('Success_Constructor')

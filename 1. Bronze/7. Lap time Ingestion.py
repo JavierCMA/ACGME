@@ -30,4 +30,4 @@ df_final.write.parquet(path="/mnt/acgmedatalake/1bronze/lap_times",mode="overwri
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit('Success_Laptime')

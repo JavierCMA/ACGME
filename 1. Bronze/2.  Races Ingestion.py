@@ -47,4 +47,4 @@ df_final1.write.mode('overwrite').partitionBy('race_year').parquet('/mnt/acgmeda
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit('Success_Races')

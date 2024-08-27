@@ -42,4 +42,4 @@ df_final.write.parquet(path ='/mnt/acgmedatalake/2silver/drivers', mode ='overwr
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit('Success_Drivers')
